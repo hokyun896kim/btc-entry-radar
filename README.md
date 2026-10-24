@@ -20,10 +20,12 @@ netlify/functions/
   macro.mts     /api/macro     FRED 달러·미 10년물·나스닥
   derivs.mts    /api/derivs    OKX 선물 통계 중계
   upbit.mts     /api/upbit-*   업비트 호출 제한에 걸릴 때 쓰는 대체 경로
+  summary.mts   /api/summary   위젯용 핵심 요약(레이더 판정 + 돌파 신호 + 가격 + 한 줄 멘트)
+widget/
+  btc-radar-widget.js   아이폰 Scriptable 위젯 (작은·중간·큰·잠금 화면)
 ```
 
 ## 배포
 이 레포의 `main` 브랜치에 푸시하면 넷리파이가 자동으로 배포해요. 빌드 명령은 없고, 게시 폴더는 `public` 이에요(`netlify.toml`).
 `ONCHAIN_TOKEN` 환경 변수는 넷리파이 사이트 설정에만 있어요. 레포에는 넣지 않아요.
 
-_자동 배포 연결 확인: 2026-10-24_

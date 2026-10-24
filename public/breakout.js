@@ -3,9 +3,10 @@
  * 브라우저(window.Breakout)와 node(module.exports) 둘 다 지원.
  */
 (function (root, factory) {
-  if (typeof module === "object" && module.exports) module.exports = factory();
-  else root.Breakout = factory();
-})(typeof self !== "undefined" ? self : this, function () {
+  var api = factory();
+  if (typeof module === "object" && module && module.exports) module.exports = api;
+  if (root) root.Breakout = api;
+})(typeof self !== "undefined" ? self : typeof globalThis !== "undefined" ? globalThis : this, function () {
   var STAGES = ["대기", "추세 추종", "적립", "정찰병", "본진입"];
 
   // 월봉 캔들 상태: 양봉이 앞 음봉 고가를 넘어 마감하면 상승, 상승 중 음봉이 앞 양봉 저가를 깨고 마감하면 하락
