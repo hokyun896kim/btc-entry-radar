@@ -1,0 +1,17 @@
+{
+  "name": "BTC 진입 레이더",
+  "short_name": "BTC 레이더",
+  "description": "비트코인 사이클 바닥·추세 전환·신고가 돌파를 한 화면에서 보는 진입 타이밍 레이더",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F3F4F5",
+  "theme_color": "#FF6600",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

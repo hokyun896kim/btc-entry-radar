@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"
+
+[[headers]]
+  for = "/onchain.json"
+  [headers.values]
+    Cache-Control = "no-cache"

@@ -1,0 +1,23 @@
+{
+  "asof": "2026-10-17",
+  "mvrvZ": 0.20,
+  "sth": 74319,
+  "tmm": 77460,
+  "etfCost": 81500,
+  "breakout": 88000,
+  "etfFlow": "out",
+  "etfFlowNote": "10/7 이후 약 7.6억 달러 순유출",
+  "levels": [
+    { "p": 100000, "t": "1~2년 보유자 원가" },
+    { "p": 96700, "t": "평균 MVRV 가격" },
+    { "p": 60000, "t": "2월 급락 저점" }
+  ],
+  "events": [
+    { "date": "2026-10-28", "t": "FOMC 금리 결정", "d": "9월 CPI 3.7%로 뜨겁게 나와 인하 기대가 흔들리는 중" },
+    { "date": "2026-11-03", "t": "미국 중간선거", "d": "결과 따라 규제·재정 기대가 한쪽으로 쏠릴 수 있음" }
+  ],
+  "sources": [
+    { "t": "Glassnode W41", "u": "https://research.glassnode.com/the-week-onchain-week-41-2026/" },
+    { "t": "CryptoPotato/BIT", "u": "https://cryptopotato.com/these-5-bitcoin-indicators-have-turned-bullish-for-the-first-time-since-2025-report/" }
+  ]
+}
